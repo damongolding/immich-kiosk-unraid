@@ -1,5 +1,3 @@
-//go:build ignore
-
 package main
 
 import (
@@ -382,7 +380,7 @@ func main() {
 	}
 
 	final := []byte(xml.Header + string(output))
-	err = os.WriteFile("unraid_template.xml", final, 0644)
+	err = os.WriteFile("immich_kiosk.xml", final, 0644)
 	if err != nil {
 		panic(err)
 	}
