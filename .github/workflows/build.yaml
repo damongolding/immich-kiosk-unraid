@@ -1,9 +1,9 @@
-name: Test
+name: Build
 
 on: [push, pull_request]
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,3 +21,11 @@ jobs:
       - name: Build
         run: |
           go run .
+
+      - name: Commit immich_kiosk.xml
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add immich_kiosk.xml
+          git commit -m "Update immich_kiosk.xml" || echo "No changes to commit"
+          git push
