@@ -1,5 +1,6 @@
 name: Generate and Save XML
 on:
+  push:
   repository_dispatch:
     types: [generate-xml]
 
