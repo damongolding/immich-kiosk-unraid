@@ -1,6 +1,7 @@
-name: Build
-
-on: [push, pull_request]
+name: Generate and Save XML
+on:
+  repository_dispatch:
+    types: [generate-xml]
 
 permissions:
   contents: write
