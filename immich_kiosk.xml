@@ -58,7 +58,7 @@
     <Config Name="Font Size" Target="KIOSK_FONT_SIZE" Default="100" Description="The base font size for Kiosk. Default is 100% (16px). DO NOT include the % character." Type="Variable" Display="always" Required="false" Mask="false">100</Config>
     <Config Name="Background Blur" Target="KIOSK_BACKGROUND_BLUR" Default="true|false" Description="Display a blurred version of the image as a background." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
     <Config Name="Theme" Target="KIOSK_THEME" Default="fade|solid" Description="Which theme to use." Type="Variable" Display="always" Required="false" Mask="false">fade</Config>
-    <Config Name="Layout" Target="KIOSK_LAYOUT" Default="" Description="Which layout to use." Type="Variable" Display="always" Required="false" Mask="false">single</Config>
+    <Config Name="Layout" Target="KIOSK_LAYOUT" Default="single|portrait|landscape|splitview|splitview-landscape" Description="" Type="Variable" Display="always" Required="false" Mask="false">single</Config>
     <Config Name="Sleep Start" Target="KIOSK_SLEEP_START" Default="" Description="Time (in 24hr format) to start sleep mode." Type="Variable" Display="always" Required="false" Mask="false"></Config>
     <Config Name="Sleep End" Target="KIOSK_SLEEP_END" Default="" Description="Time (in 24hr format) to end sleep mode." Type="Variable" Display="always" Required="false" Mask="false"></Config>
     <Config Name="Transition" Target="KIOSK_TRANSITION" Default="none|fade|cross-fade" Description="Which transition to use when changing images." Type="Variable" Display="always" Required="false" Mask="false">none</Config>
