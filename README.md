@@ -1,0 +1,1 @@
+# Immich Kiosk Unraid template
