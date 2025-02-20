@@ -358,7 +358,7 @@ func main() {
 		Category:    "Other: MediaApp:Photos",
 		Beta:        true,
 		Icon:        "https://raw.githubusercontent.com/damongolding/immich-kiosk/main/assets/logo.png",
-		TemplateURL: "https://raw.githubusercontent.com/nwithan8/unraid_templates/main/templates/immich_kiosk.xml",
+		TemplateURL: "https://raw.githubusercontent.com/damongolding/immich-kiosk-unraid/main/immich_kiosk.xml",
 		Maintainer: Maintainer{
 			WebPage: "https://github.com/damongolding",
 		},
