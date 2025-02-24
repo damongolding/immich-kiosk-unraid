@@ -342,8 +342,8 @@ func main() {
 	container := Container{
 		Version:    "2",
 		Name:       "ImmichKiosk",
-		Repository: "damongolding/immich-kiosk:latest",
-		Registry:   "https://hub.docker.com/r/damongolding/immich-kiosk",
+		Repository: "ghcr.io/damongolding/immich-kiosk:latest",
+		Registry:   "https://github.com/damongolding/immich-kiosk/pkgs/container/immich-kiosk",
 		Branch: Branch{
 			Tag:            "latest",
 			TagDescription: "Latest stable release",
