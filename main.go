@@ -362,7 +362,7 @@ func main() {
 		Maintainer: Maintainer{
 			WebPage: "https://github.com/damongolding",
 		},
-		Requires:   "A reachable Immich server that is running version v1.117.0 or above. See the project page for more information: https://github.com/damongolding/immich-kiosk?tab=readme-ov-file",
+		Requires:   "A reachable Immich server that is running version v1.127.0 or above. See the project page for more information: https://github.com/damongolding/immich-kiosk?tab=readme-ov-file",
 		DonateText: "If this project has been helpful to you and you wish to support me, you can do so with the link below 🙂.",
 		DonateLink: "https://www.buymeacoffee.com/damongolding",
 	}
