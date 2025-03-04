@@ -22,7 +22,7 @@
         <WebPage>https://github.com/damongolding</WebPage>
     </Maintainer>
     <Changes></Changes>
-    <Requires>A reachable Immich server that is running version v1.117.0 or above. See the project page for more information: https://github.com/damongolding/immich-kiosk?tab=readme-ov-file</Requires>
+    <Requires>A reachable Immich server that is running version v1.127.0 or above. See the project page for more information: https://github.com/damongolding/immich-kiosk?tab=readme-ov-file</Requires>
     <DonateText>If this project has been helpful to you and you wish to support me, you can do so with the link below 🙂.</DonateText>
     <DonateLink>https://www.buymeacoffee.com/damongolding</DonateLink>
     <Config Name="Language" Target="LANG" Default="en_US|en_GB|da_DK|nl_BE|nl_NL|fi_FI|fr_FR|fr_CA|de_DE|hu_HU|it_IT|nn_NO|nb_NO|pl_PL|pt_PT|pt_BR|ro_RO|ru_RU|es_ES|ca_ES|sv_SE|tr_TR|uk_UA|bg_BG|zh_CN|zh_TW|zh_HK|ko_KR|ja_JP|el_GR|id_ID|fr_GP|fr_LU|fr_MQ|fr_GF|fr_RE|cs_CZ|sl_SI|lt_LT|et_EE|hr_HR|lv_LV|sk_SK|th_TH|uz_UZ|kk_KZ" Description="The language code for Kiosk to use" Type="Variable" Display="always" Required="false" Mask="false">en_GB</Config>
