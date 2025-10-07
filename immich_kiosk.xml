@@ -53,6 +53,7 @@
     <Config Name="Excluded People" Target="KIOSK_EXCLUDED_PEOPLE" Default="" Description="The ID(s) of a specific person or people you want to exclude." Type="Variable" Display="always" Required="false" Mask="false"></Config>
     <Config Name="Dates" Target="KIOSK_DATES" Default="" Description="A date range or ranges." Type="Variable" Display="always" Required="false" Mask="false"></Config>
     <Config Name="Tags" Target="KIOSK_TAGS" Default="" Description="Tag or tags you want to display." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+    <Config Name="Excluded Tags" Target="KIOSK_EXCLUDED_TAGS" Default="" Description="The tag or tags you want to exclude." Type="Variable" Display="always" Required="false" Mask="false"></Config>
     <Config Name="Memories" Target="KIOSK_MEMORIES" Default="false|true" Description="Display memories." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
     <Config Name="Blacklist" Target="KIOSK_BLACKLIST" Default="" Description="The ID(s) of any specific assets you want Kiosk to skip/exclude from displaying." Type="Variable" Display="always" Required="false" Mask="false"></Config>
     <Config Name="Date Filter" Target="KIOSK_DATE_FILTER" Default="" Description="Filter person and random assets by date." Type="Variable" Display="always" Required="false" Mask="false"></Config>
