@@ -45,7 +45,7 @@
     <Config Name="Albums" Target="KIOSK_ALBUMS" Default="" Description="The ID(s) of one or more albums to display." Type="Variable" Display="always" Required="false" Mask="false"></Config>
     <Config Name="Album Order" Target="KIOSK_ALBUM_ORDER" Default="random|newest|oldest" Description="The order an album&#39;s assets will be displayed." Type="Variable" Display="always" Required="false" Mask="false">random</Config>
     <Config Name="Excluded Albums" Target="KIOSK_EXCLUDED_ALBUMS" Default="" Description="The ID(s) of a specific album or albums you want to exclude." Type="Variable" Display="always" Required="false" Mask="false"></Config>
-    <Config Name="Show Video" Target="KIOSK_SHOW_VIDEOS" Default="false|true" Description="Enable video playback." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
+    <Config Name="Show Videos" Target="KIOSK_SHOW_VIDEOS" Default="false|true" Description="Enable video playback." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
     <Config Name="Live Photos" Target="KIOSK_LIVE_PHOTOS" Default="false|true" Description="Enable live photos playback for albums." Type="Variable" Display="always" Required="false" Mask="false">false</Config>
     <Config Name="Live Photo Loop Delay" Target="KIOSK_LIVE_PHOTO_LOOP_DELAY" Default="0" Description="Delay in seconds before looping live photos." Type="Variable" Display="always" Required="false" Mask="false">0</Config>
     <Config Name="People" Target="KIOSK_PEOPLE" Default="" Description="The ID(s) of a specific person or people you want to display." Type="Variable" Display="always" Required="false" Mask="false"></Config>
