@@ -101,7 +101,7 @@ func LoadAndParseLocales() (string, error) {
 }
 
 func LoadAndParseReadmeTables() (ReadmeConfigs, error) {
-	readme, err := http.Get("https://raw.githubusercontent.com/damongolding/immich-kiosk/main/README.md")
+	readme, err := http.Get("https://raw.githubusercontent.com/damongolding/immich-kiosk/main/unraid.md")
 	if err != nil {
 		return nil, fmt.Errorf("error getting file: %w", err)
 	}
